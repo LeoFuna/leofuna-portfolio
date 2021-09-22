@@ -9,6 +9,12 @@ header {
 .nav-menu {
   list-style: none;
   display: flex;
+  position: absolute;
+  opacity: 0;
+}
+
+.nav-menu.visible {
+  opacity: 1;
 }
 
 #checkbox-menu {
