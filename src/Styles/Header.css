@@ -1,0 +1,15 @@
+header {
+  display: flex;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  position: fixed;
+  /* top: -2000px;  usado para retirar o menu da tela */
+  visibility: none;
+}
