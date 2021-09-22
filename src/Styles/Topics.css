@@ -1,0 +1,22 @@
+.topics-container {
+  height: 90vh;
+  display: flex;
+  color: rgb(17, 32, 49);
+}
+
+.topics-container div {
+  width: 50%;
+}
+
+.interest-container {
+  background-color: red;
+}
+
+.topic-list {
+  list-style: none;
+}
+
+.topic {
+  display: flex;
+  align-items: center;
+}
