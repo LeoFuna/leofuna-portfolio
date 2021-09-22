@@ -6,15 +6,33 @@ header {
   display: flex;
 }
 
+.nav-menu-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 100vh;
+  background-color: blue;
+}
+
 .nav-menu {
   list-style: none;
   display: flex;
+  flex-direction: column;
   position: absolute;
   opacity: 0;
+  top: 10vh;
+  width: 130px;
+  margin-left: auto;
+  text-align: center;
+  background-color: magenta;
 }
 
 .nav-menu.visible {
   opacity: 1;
+}
+
+.nav-item {
+  margin: 10px 0 ;
 }
 
 #checkbox-menu {
@@ -27,6 +45,9 @@ header {
   height: 25px;
   width: 30px;
   position: relative;
+  top: 4vh;
+  margin-left: auto;
+  background-color: red;
 }
 
 .list-lines span {
