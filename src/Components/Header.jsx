@@ -13,8 +13,12 @@ function Header() {
   return(
     <header>
       <div className="logo-container">
-        <p>船橋</p>
-        <p>Leonardo Funabashi</p>
+        <div className="logo">
+          <p>船橋</p>
+        </div>
+        <div className="user">
+          <p>Leonardo Funabashi</p>
+        </div>
       </div>
       <nav className="nav-menu-container">
         <div className="nav-list-menu-logo">

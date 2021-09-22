@@ -1,10 +1,38 @@
 header {
   display: flex;
+  height: 10vh;
+  width: 100vw;
+  background-color: chocolate;
 }
 
 .logo-container {
   display: flex;
   width: 50vw;
+}
+
+.logo-container div {
+  height: 100%;
+  display: flex;
+}
+
+.logo {
+  width: 50%;
+  font-size: 1.3em;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+
+.logo p {
+  margin-left: 20px;
+}
+
+.user {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
 .nav-menu-container {
@@ -13,12 +41,12 @@ header {
   position: absolute;
   right: 0;
   width: 50vw;
-  height: 10vh;
   transition: 0.15s ease-out;
 }
 
 .openSideBar {
   height: 100vh;
+  background-color: lightgrey;
 }
 
 .nav-list-menu-logo {
