@@ -2,7 +2,9 @@ header {
   display: flex;
   height: 10vh;
   width: 100vw;
-  background-color: chocolate;
+  background-color: rgb(17, 32, 49);
+  color: rgb(212, 236, 221);
+  /* color: rgb(21, 45, 53); Só para ter qual é a paleta */
 }
 
 .logo-container {
@@ -53,7 +55,7 @@ header {
 
 .openSideBar {
   height: 100vh;
-  background-color: lightgrey;
+  background-color: rgb(52, 91, 99);
 }
 
 .nav-list-menu-logo {
@@ -105,7 +107,7 @@ header {
   display: block;
   width: 100%;
   height: 5px;
-  background-color: black;
+  background-color: rgb(212, 236, 221);
   border-radius: 50px;
   transition: 0.25s ease-in-out;
 }
@@ -115,10 +117,10 @@ header {
 }
 
 .list-lines span:nth-child(2) {
-  top: 8px;
+  top: 10px;
 }
 .list-lines span:nth-child(3) {
-  top: 16px;
+  top: 20px;
 }
 
 #checkbox-menu:checked + .list-lines span:nth-child(1) { /* operador + pega o primeiro filho e executa quando o checkbc estiver checked */
