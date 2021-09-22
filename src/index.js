@@ -9,7 +9,7 @@ ReactDOM.render(
   <BrowserRouter basename="/leofuna-portfolio">
     <React.StrictMode>
       <App />
-    </React.StrictMode>,
+    </React.StrictMode>
   </BrowserRouter>,
   document.getElementById('root')
 );
