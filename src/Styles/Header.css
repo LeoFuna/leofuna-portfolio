@@ -4,35 +4,51 @@ header {
 
 .logo-container {
   display: flex;
+  width: 50vw;
 }
 
 .nav-menu-container {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  right: 0;
   width: 50vw;
+  height: 10vh;
+  transition: 0.15s ease-out;
+}
+
+.openSideBar {
   height: 100vh;
-  background-color: blue;
+}
+
+.nav-list-menu-logo {
+  height: 10vh;
+  width: 30%;
+  margin-left: 50%;
 }
 
 .nav-menu {
-  list-style: none;
   display: flex;
   flex-direction: column;
   position: absolute;
   opacity: 0;
-  top: 10vh;
-  width: 130px;
-  margin-left: auto;
-  text-align: center;
-  background-color: magenta;
+  top: 15vh;
+  width: 50vw;
+  transition: 0.10s ease-out;
 }
 
 .nav-menu.visible {
   opacity: 1;
 }
 
+.nav-menu ul {
+  list-style: none;
+}
+
 .nav-item {
-  margin: 10px 0 ;
+  text-align: left;
+  width: 100px;
+  margin: 10px 0px 30px 0px;
 }
 
 #checkbox-menu {
@@ -45,9 +61,8 @@ header {
   height: 25px;
   width: 30px;
   position: relative;
-  top: 4vh;
+  top: 3vh;
   margin-left: auto;
-  background-color: red;
 }
 
 .list-lines span {

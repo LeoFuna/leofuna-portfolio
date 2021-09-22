@@ -5,7 +5,9 @@ function Header() {
 
   function handleOpenSideBar() {
     const navMenuElement = document.getElementsByClassName("nav-menu")
-    navMenuElement[0].classList.toggle("visible")
+    const navMenuContainerElement = document.getElementsByClassName("nav-menu-container")
+    navMenuElement[0].classList.toggle("visible");
+    navMenuContainerElement[0].classList.toggle("openSideBar");
   }
 
   return(
@@ -23,11 +25,13 @@ function Header() {
             <span />
           </label>
         </div>
-        <ul className="nav-menu">
-          <li className="nav-item">Home</li>
-          <li className="nav-item">Projects</li>
-          <li className="nav-item">Contact</li>
-        </ul>
+        <div className="nav-menu">
+          <ul>
+            <li className="nav-item">Home</li>
+            <li className="nav-item">Projects</li>
+            <li className="nav-item">Contact</li>
+          </ul>
+        </div>
       </nav>
     </header>
   );
