@@ -1,11 +1,18 @@
 .topics-container {
   height: 90vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   color: rgb(17, 32, 49);
 }
 
 .topics-container div {
-  width: 50%;
+  width: 90vw;
+  height: 50%;
+}
+
+.topics-container div h1 {
+  text-align: center;
 }
 
 .interest-container {
