@@ -11,7 +11,7 @@ function Header() {
   }
 
   return(
-    <header>
+    <header data-testid="header">
       <div className="logo-container">
         <div className="logo">
           <p>船橋</p>
@@ -23,13 +23,13 @@ function Header() {
       <nav className="nav-menu-container">
         <div className="nav-list-menu-logo">
           <input type="checkbox" onClick={ handleOpenSideBar } id="checkbox-menu" />
-          <label className="list-lines" htmlFor="checkbox-menu">
+          <label data-testid="hamburger-menu" className="list-lines" htmlFor="checkbox-menu">
             <span />
             <span />
             <span />
           </label>
         </div>
-        <div className="nav-menu">
+        <div data-testid="nav-menu" className="nav-menu">
           <ul>
             <li className="nav-item">Home</li>
             <li className="nav-item">Projects</li>
