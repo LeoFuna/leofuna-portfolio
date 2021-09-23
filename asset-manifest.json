@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/leofuna-portfolio/static/css/main.c211ab32.chunk.css",
+    "main.css": "/leofuna-portfolio/static/css/main.7e096bd0.chunk.css",
     "main.js": "/leofuna-portfolio/static/js/main.d704cac6.chunk.js",
     "main.js.map": "/leofuna-portfolio/static/js/main.d704cac6.chunk.js.map",
     "runtime-main.js": "/leofuna-portfolio/static/js/runtime-main.e6f3177e.js",
@@ -10,14 +10,14 @@
     "static/js/3.9d882ecb.chunk.js": "/leofuna-portfolio/static/js/3.9d882ecb.chunk.js",
     "static/js/3.9d882ecb.chunk.js.map": "/leofuna-portfolio/static/js/3.9d882ecb.chunk.js.map",
     "index.html": "/leofuna-portfolio/index.html",
-    "static/css/main.c211ab32.chunk.css.map": "/leofuna-portfolio/static/css/main.c211ab32.chunk.css.map",
+    "static/css/main.7e096bd0.chunk.css.map": "/leofuna-portfolio/static/css/main.7e096bd0.chunk.css.map",
     "static/js/2.33f6b2e6.chunk.js.LICENSE.txt": "/leofuna-portfolio/static/js/2.33f6b2e6.chunk.js.LICENSE.txt",
     "static/media/eu.61650f22.jpeg": "/leofuna-portfolio/static/media/eu.61650f22.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.e6f3177e.js",
     "static/js/2.33f6b2e6.chunk.js",
-    "static/css/main.c211ab32.chunk.css",
+    "static/css/main.7e096bd0.chunk.css",
     "static/js/main.d704cac6.chunk.js"
   ]
 }
