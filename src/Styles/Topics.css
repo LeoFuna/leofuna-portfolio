@@ -6,24 +6,34 @@
   color: rgb(17, 32, 49);
 }
 
-.topics-container div {
+.interest-container, .hard-skills-container {
   width: 90vw;
   height: 50%;
 }
 
-.topics-container div h1 {
+.interest-container h1, .hard-skills-container h1 {
+  font-size: 1.5em;
   text-align: center;
+  display: block;
+  margin: 0;
 }
 
-.interest-container {
-  background-color: red;
+.interest-container ul, .hard-skills-container ul {
+  display: block;
+  margin: 0;
+  height: 90%;
 }
 
 .topic-list {
   list-style: none;
+  font-size: 0.95em;
 }
 
 .topic {
   display: flex;
   align-items: center;
+}
+
+.topic p {
+  margin-left: 10px;
 }
