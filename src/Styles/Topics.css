@@ -19,14 +19,17 @@
 }
 
 .interest-container ul, .hard-skills-container ul {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0;
   height: 90%;
 }
 
 .topic-list {
   list-style: none;
-  font-size: 0.95em;
+  font-size: 0.93em;
+
 }
 
 .topic {
