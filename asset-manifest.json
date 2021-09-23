@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/leofuna-portfolio/static/css/main.84889d28.chunk.css",
-    "main.js": "/leofuna-portfolio/static/js/main.5b1720d3.chunk.js",
-    "main.js.map": "/leofuna-portfolio/static/js/main.5b1720d3.chunk.js.map",
-    "runtime-main.js": "/leofuna-portfolio/static/js/runtime-main.36dfab90.js",
-    "runtime-main.js.map": "/leofuna-portfolio/static/js/runtime-main.36dfab90.js.map",
-    "static/js/2.8d1ebfa8.chunk.js": "/leofuna-portfolio/static/js/2.8d1ebfa8.chunk.js",
-    "static/js/2.8d1ebfa8.chunk.js.map": "/leofuna-portfolio/static/js/2.8d1ebfa8.chunk.js.map",
-    "static/js/3.dddfaa77.chunk.js": "/leofuna-portfolio/static/js/3.dddfaa77.chunk.js",
-    "static/js/3.dddfaa77.chunk.js.map": "/leofuna-portfolio/static/js/3.dddfaa77.chunk.js.map",
+    "main.css": "/leofuna-portfolio/static/css/main.c211ab32.chunk.css",
+    "main.js": "/leofuna-portfolio/static/js/main.d704cac6.chunk.js",
+    "main.js.map": "/leofuna-portfolio/static/js/main.d704cac6.chunk.js.map",
+    "runtime-main.js": "/leofuna-portfolio/static/js/runtime-main.e6f3177e.js",
+    "runtime-main.js.map": "/leofuna-portfolio/static/js/runtime-main.e6f3177e.js.map",
+    "static/js/2.33f6b2e6.chunk.js": "/leofuna-portfolio/static/js/2.33f6b2e6.chunk.js",
+    "static/js/2.33f6b2e6.chunk.js.map": "/leofuna-portfolio/static/js/2.33f6b2e6.chunk.js.map",
+    "static/js/3.9d882ecb.chunk.js": "/leofuna-portfolio/static/js/3.9d882ecb.chunk.js",
+    "static/js/3.9d882ecb.chunk.js.map": "/leofuna-portfolio/static/js/3.9d882ecb.chunk.js.map",
     "index.html": "/leofuna-portfolio/index.html",
-    "static/css/main.84889d28.chunk.css.map": "/leofuna-portfolio/static/css/main.84889d28.chunk.css.map",
-    "static/js/2.8d1ebfa8.chunk.js.LICENSE.txt": "/leofuna-portfolio/static/js/2.8d1ebfa8.chunk.js.LICENSE.txt",
+    "static/css/main.c211ab32.chunk.css.map": "/leofuna-portfolio/static/css/main.c211ab32.chunk.css.map",
+    "static/js/2.33f6b2e6.chunk.js.LICENSE.txt": "/leofuna-portfolio/static/js/2.33f6b2e6.chunk.js.LICENSE.txt",
     "static/media/eu.61650f22.jpeg": "/leofuna-portfolio/static/media/eu.61650f22.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.36dfab90.js",
-    "static/js/2.8d1ebfa8.chunk.js",
-    "static/css/main.84889d28.chunk.css",
-    "static/js/main.5b1720d3.chunk.js"
+    "static/js/runtime-main.e6f3177e.js",
+    "static/js/2.33f6b2e6.chunk.js",
+    "static/css/main.c211ab32.chunk.css",
+    "static/js/main.d704cac6.chunk.js"
   ]
 }
