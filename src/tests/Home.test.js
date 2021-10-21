@@ -39,3 +39,17 @@ describe('Testa os elementos do Header', () => {
     expect(contactElement).toBeInTheDocument();
   });
 });
+
+describe('Testa os elementos do Apresentation', () => {
+  test('há uma imagem principal de avatar', () => {
+    render(<Home />);
+    const heroImage = screen.getByAltText('My personal photo');
+    expect(heroImage).toBeInTheDocument();
+  });
+  test('há uma hero de apresentação', () => {
+
+  });
+  test('há um breve texto descritivo', () => {
+
+  });
+});
