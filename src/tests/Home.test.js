@@ -58,4 +58,7 @@ describe('Testa os elementos do Apresentation', () => {
     expect(firstText).toBeInTheDocument();
     expect(secondText).toBeInTheDocument();
   });
+  test('há 3 elementos de texto na div de apresentação de texto', () => {
+    render(<Home />);
+  });
 });
