@@ -47,7 +47,7 @@ describe('Testa os elementos do Apresentation', () => {
     expect(heroImage).toBeInTheDocument();
   });
   test('há uma hero de apresentação', () => {
-
+   
   });
   test('há um breve texto descritivo', () => {
 
