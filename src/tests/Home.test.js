@@ -47,7 +47,9 @@ describe('Testa os elementos do Apresentation', () => {
     expect(heroImage).toBeInTheDocument();
   });
   test('há uma hero de apresentação', () => {
-   
+    render(<Home />);
+    const heroApresentation = screen.getByText('Hi! I\'m Funa!');
+    expect(heroApresentation).toBeInTheDocument();
   });
   test('há um breve texto descritivo', () => {
 
