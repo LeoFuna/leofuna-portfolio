@@ -51,7 +51,11 @@ describe('Testa os elementos do Apresentation', () => {
     const heroApresentation = screen.getByText('Hi! I\'m Funa!');
     expect(heroApresentation).toBeInTheDocument();
   });
-  test('há um breve texto descritivo', () => {
-
+  test('há breve texto descritivo', () => {
+    render(<Home />);
+    const firstText = screen.getByText('I\'m a web developer student at Trybe');
+    const secondText = screen.getByText('Welcome to my project portfolio!');
+    expect(firstText).toBeInTheDocument();
+    expect(secondText).toBeInTheDocument();
   });
 });
