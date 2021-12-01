@@ -31,9 +31,9 @@ function Header() {
         </div>
         <div data-testid="nav-menu" className="nav-menu">
           <ul>
-            <li className="nav-item">Home</li>
-            <li className="nav-item">Projects</li>
-            <li className="nav-item">Contact</li>
+            <li className="nav-item">Início</li>
+            <li className="nav-item">Projetos</li>
+            <li className="nav-item">Contato</li>
           </ul>
         </div>
       </nav>

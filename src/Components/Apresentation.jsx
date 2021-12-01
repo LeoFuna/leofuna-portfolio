@@ -9,9 +9,9 @@ function Apresentation() {
         <img className="apresentation-photo" src={myPhoto} alt="My personal photo" />
       </div>
       <div id="apresentation-text-container">
-        <h4>{ "Hi! I'm Funa!" }</h4>
-        <p>{ "I'm a web developer student at Trybe" }</p>
-        <p>{ "Welcome to my project portfolio!" }</p>
+        <h4>Oi! Eu sou o Funa!</h4>
+        <p>Sou um estudante de desenvolvimento web na Trybe</p>
+        <p>Agradeço à visita ao meu portfólio de projetos!</p>
       </div>
     </div>
   );

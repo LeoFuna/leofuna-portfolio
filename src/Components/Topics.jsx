@@ -6,29 +6,29 @@ import { faCss3, faGithubAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/
 
 function Topics() {
   return (
-    <div className="topics-container">
+    <div data-testid="topics-container" className="topics-container">
       <div className="interest-container">
-        <h1>Interest</h1>
+        <h1>Interesses</h1>
         <ul className="topic-list">
           <li className="topic">
             <FontAwesomeIcon icon={faLaptopCode} />
-            <p>Technology</p>
+            <p>Tecnologia</p>
           </li>
           <li className="topic">
             <FontAwesomeIcon icon={ faLightbulb } />
-            <p>Inovation</p>
+            <p>Inovação</p>
           </li>
           <li className="topic">
             <FontAwesomeIcon icon={ faChartLine } />
-            <p>Finance</p>
+            <p>Finanças</p>
           </li>
           <li className="topic">
             <FontAwesomeIcon icon={ faGuitar } />
-            <p>Music</p>
+            <p>Musica</p>
           </li>
           <li className="topic">
             <FontAwesomeIcon icon={ faSeedling } />
-            <p>Minimalism</p>
+            <p>Minimalismo</p>
           </li>
         </ul>
       </div>
