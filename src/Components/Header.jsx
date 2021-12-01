@@ -11,10 +11,6 @@ function Header() {
     navMenuContainerElement[0].classList.toggle("openSideBar");
   }
 
-  // function linkToAnRoute() {
-
-  // }
-
   return(
     <header data-testid="header">
       <div className="logo-container">
