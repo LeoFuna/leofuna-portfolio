@@ -6,13 +6,13 @@ import Topics from "../Components/Topics";
 
 function Home() {
   return(
-    <div>
+    <>
       <Header />
       <div style={{ height: '10vh' }} /> { /* Div colocada para compensar o tamanho do header por ele ser fixed */ }
       <Apresentation />
       <About />
       <Topics />
-    </div>
+    </>
   );
 }
 

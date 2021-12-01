@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom";
 import "../Styles/Header.css";
 
 function Header() {
@@ -9,6 +10,10 @@ function Header() {
     navMenuElement[0].classList.toggle("visible");
     navMenuContainerElement[0].classList.toggle("openSideBar");
   }
+
+  // function linkToAnRoute() {
+
+  // }
 
   return(
     <header data-testid="header">
@@ -31,9 +36,15 @@ function Header() {
         </div>
         <div data-testid="nav-menu" className="nav-menu">
           <ul>
-            <li className="nav-item">Início</li>
-            <li className="nav-item">Projetos</li>
-            <li className="nav-item">Contato</li>
+            <Link style={{ textDecoration: 'none', color: 'inherit' }} to="/">
+              <li className="nav-item">Início</li>
+            </Link>
+            <Link style={{ textDecoration: 'none', color: 'inherit' }} to="projetos"> 
+              <li className="nav-item">Projetos</li>
+            </Link>
+            <Link style={{ textDecoration: 'none', color: 'inherit' }} to="/contato">
+              <li className="nav-item">Contato</li>
+            </Link>
           </ul>
         </div>
       </nav>
