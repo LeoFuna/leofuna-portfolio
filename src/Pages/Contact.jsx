@@ -1,4 +1,6 @@
 import React from 'react';
+import ContactGreetings from '../Components/ContactGreetings';
+import ContactIcons from '../Components/ContactIcons';
 import Header from '../Components/Header';
 
 function Contact() {
@@ -6,7 +8,8 @@ function Contact() {
     <>
       <Header />
       <div style={{ height: '10vh' }} />
-      <div style={{ width: '100vw', height: '80vh' }}>EM CONSTRUÇÂO...</div>
+      <ContactGreetings />
+      <ContactIcons />
     </>
   );
 }
