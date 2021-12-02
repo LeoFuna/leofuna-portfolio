@@ -8,7 +8,8 @@
 
 .project-container a img {
   width: 70vw;
-  border-radius: 10%;
+  height: 40vh;
+  border-radius: 100%;
 }
 
 .project-container div h2 {
@@ -17,4 +18,9 @@
 
 .project-container div p {
   text-align: center;
+}
+
+.isDark {
+  background-color: rgb(21, 45, 53);
+  color: rgb(212, 236, 221);
 }

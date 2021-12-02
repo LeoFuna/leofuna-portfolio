@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 
 function ProjectContainer(props) {
   return (
-    <div className="project-container">
-      <a href="https://leofuna.github.io/trivia-project/" target="_blank" rel="noreferrer">
+    <div className={`project-container ${ props.isDark }`}>
+      <a href={ props.appLink } target="_blank" rel="noreferrer">
         <img src={ props.preview } alt={`Imagem ${ props.title }`} />
       </a>
       <div>
@@ -19,7 +19,9 @@ function ProjectContainer(props) {
 ProjectContainer.propTypes = {
   preview: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  description: PropTypes.string.isRequired,
+  appLink: PropTypes.string.isRequired,
+  isDark: PropTypes.string.isRequired
 }
 
 export default ProjectContainer;

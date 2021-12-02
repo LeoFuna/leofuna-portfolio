@@ -8,7 +8,26 @@ function Projects() {
     <>
       <Header />
       <div style={{ height: '10vh' }} />
-      { projects.map((project, index) => <ProjectContainer key={ index } preview={ project.imagePath } title={ project.title } description={ project.description } />) }
+      { projects.map((project, index) => {
+        if (index % 2 === 0) {
+          return <ProjectContainer 
+              key={ index } 
+              isDark='' 
+              preview={ project.imagePath } 
+              appLink={ project.appLink } 
+              title={ project.title } 
+              description={ project.description }
+               />
+        }
+        return <ProjectContainer 
+        key={ index } 
+        isDark='isDark'
+        preview={ project.imagePath } 
+        appLink={ project.appLink } 
+        title={ project.title } 
+        description={ project.description }
+         />
+      }) }
     </>
   );
 }
