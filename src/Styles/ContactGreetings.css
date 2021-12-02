@@ -1,0 +1,12 @@
+.greetings-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 30vh;
+}
+
+.greetings-container h1 span {
+  color: rgb(212, 236, 221);
+  /* https://www.geeksforgeeks.org/css-font-border/ */
+  text-shadow: -1.5px 1.5px 0 rgb(21, 45, 53), 1.5px 1.5px 0 rgb(21, 45, 53), 1.5px -1.5px 0 rgb(21, 45, 53), -1.5px -1.5px 0 rgb(21, 45, 53);
+}

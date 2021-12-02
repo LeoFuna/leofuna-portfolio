@@ -70,6 +70,7 @@ header {
   flex-direction: column;
   position: absolute;
   opacity: 0;
+  display: none;
   top: 15vh;
   width: 50vw;
   transition: 0.10s ease-out;
@@ -77,6 +78,7 @@ header {
 
 .nav-menu.visible {
   opacity: 1;
+  display: inherit;
 }
 
 .nav-menu ul {
