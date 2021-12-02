@@ -5,7 +5,7 @@ import '../Styles/ContactIcons.css';
 
 function ContactIcons() {
   return (
-    <div className='icons-container'>
+    <div data-testid='icons-container' className='icons-container'>
       <div>
         <a href="https://github.com/LeoFuna" target="_blank" rel="noreferrer">
           <div>
