@@ -1,10 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubAlt, faLinkedinIn, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
+import '../Styles/ContactIcons.css';
 
 function ContactIcons() {
   return (
-    <div className=''>
+    <div className='icons-container'>
       <div>
         <div>
           <FontAwesomeIcon icon={faGithubAlt} />
