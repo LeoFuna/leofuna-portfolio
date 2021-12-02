@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: red;
 }
 
 .project-container a img {
@@ -12,6 +11,10 @@
   border-radius: 10%;
 }
 
-.project-container p {
+.project-container div h2 {
+  text-align: center;
+}
+
+.project-container div p {
   text-align: center;
 }

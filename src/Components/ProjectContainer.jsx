@@ -8,8 +8,10 @@ function ProjectContainer(props) {
       <a href="https://leofuna.github.io/trivia-project/" target="_blank" rel="noreferrer">
         <img src={ props.preview } alt={`Imagem ${ props.title }`} />
       </a>
-      <h2>{ props.title }</h2>
-      <p>{ props.description }</p>
+      <div>
+        <h2>{ props.title }</h2>
+        <p>{ props.description }</p>
+      </div>
     </div>
   );
 }
