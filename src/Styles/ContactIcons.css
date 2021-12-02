@@ -2,14 +2,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color:rgb(21, 45, 53)
 }
 
 .icons-container div {
   margin: 0.3em;
-  /* background-color: red; */
 }
 
-.icons-container div div {
+.icons-container div a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icons-container div a div {
   background-color: rgb(21, 45, 53);
   color: rgb(212, 236, 221);
   padding: 0.3em;
@@ -19,6 +24,6 @@
   font-size: 4em;
 }
 
-.icons-container div h3 {
+.icons-container div a h3 {
   text-align: center;
 }
