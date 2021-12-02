@@ -1,0 +1,17 @@
+.project-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.project-container a img {
+  width: 70vw;
+  border-radius: 10%;
+}
+
+.project-container p {
+  text-align: center;
+}
