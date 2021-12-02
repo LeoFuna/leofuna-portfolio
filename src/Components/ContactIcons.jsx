@@ -23,7 +23,7 @@ function ContactIcons() {
         </a>
       </div>
       <div>
-        <a href="https://wa.me/55998295835" target="_blank" rel="noreferrer">
+        <a href="https://wa.me/5527998295835" target="_blank" rel="noreferrer">
           <div>
             <FontAwesomeIcon icon={faWhatsapp} />
           </div>
