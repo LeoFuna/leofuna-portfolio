@@ -28,3 +28,21 @@
   background-color: rgb(21, 45, 53);
   color: rgb(212, 236, 221);
 }
+
+@media screen and (min-width: 768px) {
+  .project-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-container a img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 100%;
+  }
+  .project-container div {
+    width: 35vw;
+    margin: 0 1.5em;
+    font-size: 1.7em;
+  }
+}
