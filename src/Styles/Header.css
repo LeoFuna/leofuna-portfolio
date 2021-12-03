@@ -140,3 +140,37 @@ header {
   transform: rotate(45deg);
   top: 8px;
 }
+
+@media screen and (min-width: 768px) {
+  .nav-menu-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    width: 50vw;
+    transition: 0.15s ease-out;
+  }
+  .nav-list-menu-logo {
+    display: none;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    opacity: 1;
+    top: 0;
+    height: 10vh;
+  }
+  .nav-menu ul {
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+  }
+  .nav-item {
+    text-align: center;
+    width: 6em;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+}
