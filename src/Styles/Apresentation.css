@@ -18,17 +18,22 @@
   box-shadow: -3px 2px 12px 1px rgb(21, 45, 53);
 }
 
-#apresentation-text-container {
+.apresentation-text-container {
   width: 90vw;
   text-align: center;
   font-size: 1.3em;
 }
 
-.apresentation-text-container h4 {
-  font-size: 1.1em;
-  margin-bottom: 40px;
-}
-
-.apresentation-text-container p {
-  font-size: 0.9em;
+@media screen and (min-width: 768px) {
+  .apresentation-photo {
+    width: 25%;
+    min-width: 350px;
+  }
+  .apresentation-text-container {
+    font-size: 1.6em;
+  }
+  .apresentation-text-container h4 {
+    font-size: 1.9em;
+    margin-bottom: 40px;
+  }
 }
