@@ -11,3 +11,11 @@
   /* https://www.geeksforgeeks.org/css-font-border/ */
   text-shadow: -1.5px 1.5px 0 rgb(21, 45, 53), 1.5px 1.5px 0 rgb(21, 45, 53), 1.5px -1.5px 0 rgb(21, 45, 53), -1.5px -1.5px 0 rgb(21, 45, 53);
 }
+
+@media screen and (min-width: 768px) {
+  .greetings-container {
+    font-size: 2em;
+    height: 30vh;
+    padding-top: 7vh;
+  }
+}

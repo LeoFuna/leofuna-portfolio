@@ -24,7 +24,7 @@ function Topics() {
           </li>
           <li className="topic">
             <FontAwesomeIcon icon={ faGuitar } />
-            <p>Musica</p>
+            <p>Música</p>
           </li>
           <li className="topic">
             <FontAwesomeIcon icon={ faSeedling } />

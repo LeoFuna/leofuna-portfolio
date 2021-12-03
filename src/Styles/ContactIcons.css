@@ -27,3 +27,17 @@
 .icons-container div a h3 {
   text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  .icons-container {
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1.5vh;
+  }
+  .icons-container div {
+    margin: 1em;
+  }
+  .icons-container div a h3 {
+    font-size: 2em;
+  }
+}
