@@ -1,0 +1,30 @@
+.project-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-container div {
+  margin: 0 1em;
+}
+
+.project-container a img {
+  width: 70vw;
+  height: 40vh;
+  border-radius: 100%;
+}
+
+.project-container div h2 {
+  text-align: center;
+}
+
+.project-container div p {
+  text-align: center;
+}
+
+.isDark {
+  background-color: rgb(21, 45, 53);
+  color: rgb(212, 236, 221);
+}
