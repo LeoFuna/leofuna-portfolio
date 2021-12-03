@@ -11,6 +11,6 @@ export const projects = [
     imagePath: netflixClone,
     appLink: 'https://leofuna.github.io/Netflix-Clone/',
     title: 'Netflix Clone',
-    description: 'Projeto onde o desafio era recriar o conceito da página inicial da Netflix, consumindo os dados de uma API de filmes/series. Foi usado React, Hooks, Context API e Styled Components.'
+    description: 'Projeto onde o desafio era recriar o conceito da página inicial da Netflix consumindo os dados de uma API de filmes/séries. Foi usado React, Hooks, Context API e Styled Components.'
   }
 ];
